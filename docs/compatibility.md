@@ -20,11 +20,11 @@ There are **zero third-party runtime dependencies**. The application uses Python
 
 Development tools can use platform-specific wheels even though the runtime is standard-library-only. Lock resolution and available wheel metadata do not prove installation succeeded on a platform. Treat actual CI results as evidence.
 
-## Four configured validation profiles
+## Four validated compatibility profiles
 
 The workflow configures Linux x64, Windows x64, macOS Apple Silicon and macOS Intel with Python 3.12. Each installs locked development dependencies, diagnoses bundled files, checks types/style and runs the same tiny authored tests. It also builds a wheel and inspects packaged SQL/static resources.
 
-**Current execution status is in [release evidence](release-0.1.0.md).** A committed workflow file is not a successful remote run. Local Linux checks cannot certify another operating system. The workflow must run after repository publication.
+**All four profiles passed in [GitHub Actions run 41308917902](https://github.com/zubairemritte/luxrisk-intelligence/actions/runs/41308917902).** This includes the locked installation, 21 small authored tests, strict types/style and wheel build on implementation commit `9098d61c35da0cc68fcb95133c8278c4435ee70b`. See [release evidence](release-0.1.0.md). These results validate the listed profiles, not every possible machine or network configuration.
 
 The same commands work in PowerShell, Terminal and Bash through Poetry; use the full Python executable path if version discovery differs. Unicode/space paths, SQLite availability, antivirus locks, proxies, corporate TLS certificates and unavailable providers remain environmental factors, not guarantees made by a lockfile.
 
