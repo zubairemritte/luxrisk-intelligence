@@ -1,6 +1,6 @@
 # Release evidence: 0.1.0
 
-Prepared **1 November 2026**. Evidence distinguishes checks actually executed from configured future checks.
+Prepared **1 November 2026**. Evidence distinguishes local checks from the separately executed GitHub compatibility matrix.
 
 ## Executed locally
 
@@ -20,16 +20,16 @@ Prepared **1 November 2026**. Evidence distinguishes checks actually executed fr
 
 Source functions/methods have documented contracts and explicit parameter/return annotations; the complete [function index](function-index.md) follows actual definitions. Four operational classes own the collection/storage workflow; supporting records and the internal HTTP handler are explained separately.
 
-## Remote checks are configured, not yet run
+## Remote compatibility checks passed
 
 | Profile | Runtime | Status |
 | --- | --- | --- |
-| Linux x64 / Ubuntu 24.04 | Python 3.12 | Configured; awaits repository publication |
-| Windows x64 / Windows 2022 | Python 3.12 | Configured; awaits repository publication |
-| macOS Apple Silicon / macOS 14 | Python 3.12 | Configured; awaits repository publication |
-| macOS Intel / macOS 15 | Python 3.12 | Configured; awaits repository publication |
+| Linux x64 / Ubuntu 24.04 | Python 3.12 | Passed: locked installation, diagnosis, type/style checks, 21 small tests and wheel build |
+| Windows x64 / Windows 2022 | Python 3.12 | Passed: locked installation, diagnosis, type/style checks, 21 small tests and wheel build |
+| macOS Apple Silicon / macOS 14 | Python 3.12 | Passed: locked installation, diagnosis, type/style checks, 21 small tests and wheel build |
+| macOS Intel / macOS 15 | Python 3.12 | Passed: locked installation, diagnosis, type/style checks, 21 small tests and wheel build |
 
-No remote run URL is claimed. A matching profile name in YAML is not proof of a successful installation. Record remote results after the new repository has been created and the workflow actually runs.
+All four profiles completed successfully in [GitHub Actions run 41308917902](https://github.com/zubairemritte/luxrisk-intelligence/actions/runs/41308917902), on implementation commit `9098d61c35da0cc68fcb95133c8278c4435ee70b`. This validates these runner/runtime profiles, not every possible local OS or network configuration.
 
 ## Deliberately not executed or claimed
 
