@@ -1,0 +1,48 @@
+[build-system]
+requires = ["poetry-core==2.5.0"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "luxrisk-intelligence"
+version = "0.1.0"
+description = "Traceable macroeconomic signals, revision evidence and transparent exposure scenarios"
+authors = [{name = "Zubair Emritte"}]
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = "MIT"
+dependencies = []
+
+[project.scripts]
+luxrisk = "luxrisk.cli:main"
+
+[tool.poetry]
+packages = [{include = "luxrisk"}]
+include = [
+  {path = "luxrisk/sql/*.sql", format = ["sdist", "wheel"]},
+  {path = "luxrisk/static/*", format = ["sdist", "wheel"]},
+]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "==9.2.0"
+ruff = "==0.17.3"
+mypy = "==2.4.1"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "ANN", "D"]
+ignore = ["E501", "ANN401", "D100", "D104", "D203", "D213"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["D", "ANN"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+files = ["luxrisk"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--strict-markers"

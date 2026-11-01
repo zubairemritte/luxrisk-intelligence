@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="330" viewBox="0 0 680 330" role="img" aria-labelledby="title desc">
+<title id="title">02 — LuxRisk Intelligence</title>
+<desc id="desc">Macroeconomic &amp; financial indicators. Local analytical workspace, version 0.1. The diagram illustrates the concept, not measured results.</desc>
+<rect x="0" y="0" width="680" height="330" fill="#F4F0E7" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="5" height="330" fill="#355D4A" stroke="none" stroke-width="1"/>
+<text x="31" y="35" fill="#355D4A" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="400" letter-spacing="0.65">02 / ECONOMIC INDICATORS</text>
+<text x="583" y="35" fill="#355D4A" font-family="'Courier New', Courier, monospace" font-size="12" font-weight="400" letter-spacing="0.65">V0.1.0</text>
+<path d="M31 54H647" stroke="#C3BDB0" stroke-width="1"/>
+<text x="28" y="111" fill="#242D2A" font-family="Georgia, 'Times New Roman', serif" font-size="45" font-weight="400" letter-spacing="-1">LuxRisk Intelligence</text>
+<text x="31" y="146" fill="#242D2A" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" letter-spacing="0">Macroeconomic &amp; financial indicators</text>
+<text x="31" y="213" fill="#355D4A" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="400" letter-spacing="0">Compare countries.</text>
+<text x="31" y="244" fill="#355D4A" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="400" letter-spacing="0">Trace every indicator.</text>
+<rect x="468" y="177" width="174" height="84" fill="#F4F0E7" stroke="#355D4A" stroke-width="1.5"/>
+<path d="M468 205H642" stroke="#355D4A" stroke-width="1"/>
+<path d="M468 233H642" stroke="#355D4A" stroke-width="1"/>
+<path d="M573 177L573 261" stroke="#355D4A" stroke-width="1"/>
+<text x="478" y="197" fill="#355D4A" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="400" letter-spacing="0.65">SOURCE</text>
+<path d="M590 192H627" stroke="#355D4A" stroke-width="3"/>
+<text x="478" y="225" fill="#355D4A" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="400" letter-spacing="0.65">SERIES</text>
+<path d="M590 220H627" stroke="#355D4A" stroke-width="3"/>
+<text x="478" y="253" fill="#355D4A" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="400" letter-spacing="0.65">UNIT</text>
+<path d="M590 248H627" stroke="#355D4A" stroke-width="3"/>
+<path d="M31 282H647" stroke="#C3BDB0" stroke-width="1"/>
+<text x="31" y="310" fill="#242D2A" font-family="'Courier New', Courier, monospace" font-size="12.5" font-weight="400" letter-spacing="0.65">PYTHON / SQL / EVIDENCE</text>
+</svg>

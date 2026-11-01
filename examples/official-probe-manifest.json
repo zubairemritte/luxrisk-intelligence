@@ -1,0 +1,122 @@
+{
+  "note": "Small actual source probes, not a full collection; derived display by Zubair Emritte. Sources: Eurostat and ECB.",
+  "probes": [
+    {
+      "indicator": "inflation",
+      "country": "DE",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_manr?freq=M&coicop=CP00&unit=RCH_A&geo=DE&lang=EN&sinceTimePeriod=2025-01&untilTimePeriod=2025-03",
+      "retrieved_at": "2026-11-01T12:22:38.538776+00:00",
+      "sha256": "3a3c73e0821e0caeb2c4f4efcae603780cf872d201e2429d0273aa191c421429",
+      "observations": 3,
+      "sample": [
+        {
+          "country": "DE",
+          "indicator": "inflation",
+          "period": "2025-01",
+          "value": 2.8,
+          "status": ""
+        },
+        {
+          "country": "DE",
+          "indicator": "inflation",
+          "period": "2025-02",
+          "value": 2.6,
+          "status": ""
+        },
+        {
+          "country": "DE",
+          "indicator": "inflation",
+          "period": "2025-03",
+          "value": 2.3,
+          "status": ""
+        }
+      ]
+    },
+    {
+      "indicator": "unemployment",
+      "country": "DE",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/une_rt_m?freq=M&s_adj=SA&age=TOTAL&sex=T&unit=PC_ACT&geo=DE&lang=EN&sinceTimePeriod=2025-01&untilTimePeriod=2025-03",
+      "retrieved_at": "2026-11-01T12:22:43.902101+00:00",
+      "sha256": "50b3002f9aa61844a20979e5aa4610d13389772965f6a7ff8bb6f256a6054e5b",
+      "observations": 3,
+      "sample": [
+        {
+          "country": "DE",
+          "indicator": "unemployment",
+          "period": "2025-01",
+          "value": 3.5,
+          "status": ""
+        },
+        {
+          "country": "DE",
+          "indicator": "unemployment",
+          "period": "2025-02",
+          "value": 3.6,
+          "status": ""
+        },
+        {
+          "country": "DE",
+          "indicator": "unemployment",
+          "period": "2025-03",
+          "value": 3.6,
+          "status": ""
+        }
+      ]
+    },
+    {
+      "indicator": "gdp",
+      "country": "DE",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/namq_10_gdp?freq=Q&s_adj=SCA&unit=CLV_PCH_PRE&na_item=B1GQ&geo=DE&lang=EN&sinceTimePeriod=2025-Q1&untilTimePeriod=2025-Q2",
+      "retrieved_at": "2026-11-01T12:22:47.522498+00:00",
+      "sha256": "e02a6b1c9eaf277e6fd5ae47f4b8915e4a9563cc3b469413150b71562d548c16",
+      "observations": 2,
+      "sample": [
+        {
+          "country": "DE",
+          "indicator": "gdp",
+          "period": "2025-Q1",
+          "value": 0.1,
+          "status": "p"
+        },
+        {
+          "country": "DE",
+          "indicator": "gdp",
+          "period": "2025-Q2",
+          "value": 0.0,
+          "status": "p"
+        }
+      ]
+    },
+    {
+      "indicator": "eurusd",
+      "country": "EA",
+      "url": "https://data-api.ecb.europa.eu/service/data/EXR/M.USD.EUR.SP00.A?format=csvdata&startPeriod=2025-01&endPeriod=2025-03",
+      "retrieved_at": "2026-11-01T12:22:51.876808+00:00",
+      "sha256": "f77fce5deb76c05c5f24b7bcc0457aca660c9757009c3291cec1ccf4520dd959",
+      "observations": 3,
+      "sample": [
+        {
+          "country": "EA",
+          "indicator": "eurusd",
+          "period": "2025-01",
+          "value": 1.0353727272727,
+          "status": "A"
+        },
+        {
+          "country": "EA",
+          "indicator": "eurusd",
+          "period": "2025-02",
+          "value": 1.04125,
+          "status": "A"
+        },
+        {
+          "country": "EA",
+          "indicator": "eurusd",
+          "period": "2025-03",
+          "value": 1.080680952381,
+          "status": "A"
+        }
+      ]
+    }
+  ]
+}
